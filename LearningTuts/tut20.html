@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box Model</title>
+    <style>
+        *{
+            box-sizing: border-box;
+            box-shadow: inset;
+        }
+        .container {
+            background-color: #e5f5e7;;
+            border: 3px solid rgb(64, 6, 200);
+            border-radius: 23px;
+            /* We can set padding top bottom left right like this */
+            /* padding-top: 10px;
+            padding-bottom: 10px; */
+            /* padding-left: 5px; */
+            padding: 23px 56px 6px 40px; /*padding/margin: top right bottom left*/
+            margin: 30px;
+
+            /* marging/padding: x(left/right) or y(top/bottom) */
+            width: 600px;
+        }
+    </style>
+
+</head>
+<body>
+    <div class="container">
+        <h3>This is my heading</h3>
+        <p id="first"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium reiciendis excepturi asperiores est quo. Dolore dolorum omnis provident at dolores ipsam atque hic. Ea fugiat recusandae repellendus, doloribus reprehenderit accusamus.</p>
+    </div>
+
+    <div class="container">
+        <h3>This is my heading</h3>
+        <p id="second"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium reiciendis excepturi asperiores est quo. Dolore dolorum omnis provident at dolores ipsam atque hic. Ea fugiat recusandae repellendus, doloribus reprehenderit accusamus.</p>
+    </div>
+
+    <div class="container">
+        <h3>This is my heading</h3>
+        <p id="third"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium reiciendis excepturi asperiores est quo. Dolore dolorum omnis provident at dolores ipsam atque hic. Ea fugiat recusandae repellendus, doloribus reprehenderit accusamus.</p>
+    </div>
+    
+</body>
+</html> 
