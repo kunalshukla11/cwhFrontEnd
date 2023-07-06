@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text shadow and Box shadow</title>
+</head>
+<style>
+    .container{
+        display: flex;
+    }
+    .card{
+        padding: 23px 12px;
+        margin: 23px 12px;
+        /* border: 2px solid red; */
+        background-color: aquamarine;
+        box-shadow: 10px 13px 12px greenyellow;
+        /* shdaow variables x-offset y-offset blur-radius colour */
+        /* inset will make the shadow in opposite direction */
+    }
+    h2{
+        text-shadow: 10px 12px gray;
+    }
+</style>
+<body>
+    <div class="container">
+        <div class="card" id="card-1">
+            <h2>Card 1</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At eaque error corrupti, autem facilis illum odio deserunt atque consectetur, ad ea fugit accusamus ex reiciendis perspiciatis praesentium dignissimos vel aspernatur enim ullam odit eos.</p>
+        </div>
+        <div class="card" id="card-2">
+            <h2>Card 2</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, consequuntur veniam magni non provident pariatur perferendis cupiditate esse tempora animi molestias consequatur aliquam ratione nobis tenetur numquam! Maiores laudantium odit et earum aliquid magni!</p>
+        </div>
+        <div class="card" id="card-3">
+            <h2>Card 3</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus nostrum aliquid reiciendis pariatur repellat? Esse sequi adipisci minus nostrum, quam laborum dolor in ratione maiores explicabo ad consequatur voluptas deleniti nemo asperiores dicta sunt.</p>
+        </div>
+    </div>
+</body>
+</html>
